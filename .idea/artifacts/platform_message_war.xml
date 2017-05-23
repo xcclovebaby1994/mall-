@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="platform-message:war">
+    <output-path>$PROJECT_DIR$/platform-message/target</output-path>
+    <root id="archive" name="platform-message-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="platform-message:war exploded" />
+    </root>
+  </artifact>
+</component>

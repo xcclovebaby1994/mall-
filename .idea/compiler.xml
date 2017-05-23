@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-core" />
+        <module name="platform-domain" />
+        <module name="platform-erp" />
+        <module name="platform-message" />
+        <module name="platform-repository" />
+        <module name="platform-service" />
+        <module name="platform-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="platform-core" target="1.5" />
+      <module name="platform-domain" target="1.5" />
+      <module name="platform-erp" target="1.5" />
+      <module name="platform-mall" target="1.5" />
+      <module name="platform-message" target="1.5" />
+      <module name="platform-repository" target="1.5" />
+      <module name="platform-service" target="1.5" />
+      <module name="platform-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

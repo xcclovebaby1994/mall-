@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-core/platform-core.iml" filepath="$PROJECT_DIR$/platform-core/platform-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-domain/platform-domain.iml" filepath="$PROJECT_DIR$/platform-domain/platform-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-erp/platform-erp.iml" filepath="$PROJECT_DIR$/platform-erp/platform-erp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-mall.iml" filepath="$PROJECT_DIR$/platform-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-message/platform-message.iml" filepath="$PROJECT_DIR$/platform-message/platform-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-repository/platform-repository.iml" filepath="$PROJECT_DIR$/platform-repository/platform-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-service/platform-service.iml" filepath="$PROJECT_DIR$/platform-service/platform-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-web/platform-web.iml" filepath="$PROJECT_DIR$/platform-web/platform-web.iml" />
+    </modules>
+  </component>
+</project>

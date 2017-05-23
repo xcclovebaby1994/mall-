@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="platform-erp:war">
+    <output-path>$PROJECT_DIR$/platform-erp/target</output-path>
+    <root id="archive" name="platform-erp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="platform-erp:war exploded" />
+    </root>
+  </artifact>
+</component>
