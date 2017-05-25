@@ -14,8 +14,73 @@
     <name>platform-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <httpPort>10002</httpPort>
+        <httpPort>12127</httpPort>
     </properties>
+
+    <dependencies>
+        <!--添加service依赖-->
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>platform-service</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!--spring boot web 依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--热部署-->
+        <!--mvn spring-boot:run 可以启动项目了-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>springloaded</artifactId>
+            <version>1.2.5.RELEASE</version>
+        </dependency>
+        <!--spring boot jetty 依赖-->
+        <!--使用 jetty 作为 Servlet 容器替换 tomcat-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency>
+        <!--log4j-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>springloaded</artifactId>
+                        <version>1.2.5.RELEASE</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--<profiles>-->
+        <!--<profile>-->
+            <!--&lt;!&ndash; 激活 activation 93数据库 &ndash;&gt;-->
+            <!--<id>testing</id>-->
+            <!--<activation>-->
+                <!--<activeByDefault>true</activeByDefault>-->
+            <!--</activation>-->
+            <!--<build>-->
+                <!--<filters>-->
+                    <!--<filter>../profile-testing.properties</filter>-->
+                <!--</filters>-->
+            <!--</build>-->
+        <!--</profile>-->
+    <!--</profiles>-->
 
 
 </project>

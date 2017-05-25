@@ -10,20 +10,22 @@
         <module name="platform-domain" />
         <module name="platform-erp" />
         <module name="platform-message" />
+        <module name="platform-redis" />
         <module name="platform-repository" />
         <module name="platform-service" />
         <module name="platform-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="platform-core" target="1.5" />
-      <module name="platform-domain" target="1.5" />
-      <module name="platform-erp" target="1.5" />
-      <module name="platform-mall" target="1.5" />
-      <module name="platform-message" target="1.5" />
-      <module name="platform-repository" target="1.5" />
-      <module name="platform-service" target="1.5" />
-      <module name="platform-web" target="1.5" />
+      <module name="platform-core" target="1.8" />
+      <module name="platform-domain" target="1.8" />
+      <module name="platform-erp" target="1.8" />
+      <module name="platform-mall" target="1.8" />
+      <module name="platform-message" target="1.8" />
+      <module name="platform-redis" target="1.8" />
+      <module name="platform-repository" target="1.8" />
+      <module name="platform-service" target="1.8" />
+      <module name="platform-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
