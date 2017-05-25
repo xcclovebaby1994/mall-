@@ -13,9 +13,6 @@
     <packaging>war</packaging>
     <name>platform-erp Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <properties>
-        <httpPort>10003</httpPort>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -47,13 +44,6 @@
             <artifactId>druid</artifactId>
             <version>1.0.15</version>
         </dependency>
-        <!--添加service依赖-->
-        <dependency>
-            <groupId>${project.parent.groupId}</groupId>
-            <artifactId>platform-service</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
         <!--spring boot web 依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
