@@ -25,6 +25,13 @@
             <version>${project.parent.version}</version>
         </dependency>
 
+        <!--message 依赖-->
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>platform-message</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
         <!--spring boot web 依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -43,11 +50,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jetty</artifactId>
-        </dependency>
-        <!--log4j-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j</artifactId>
         </dependency>
     </dependencies>
 
