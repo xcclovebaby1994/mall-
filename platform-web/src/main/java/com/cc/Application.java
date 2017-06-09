@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Profile;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,8 +22,12 @@ public class Application {
     @Autowired
     private DemoService demoService;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     @RequestMapping("/")
     String home() {
+        redisTemplate.opsForValue().set("key","value");
         return "Hello World!";
     }
 
@@ -34,7 +39,9 @@ public class Application {
     @RequestMapping("/demo")
     String demo(){
         int count = demoService.getCount();
-        return "连接数据库成功" + count + "";
+        Object key = redisTemplate.opsForValue().get("key");
+
+        return "连接数据库成功" + count + "" + "redis = " + (String)key;
     }
 
     public static void main(String[] args) {

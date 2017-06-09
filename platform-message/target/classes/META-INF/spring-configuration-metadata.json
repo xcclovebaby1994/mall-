@@ -1,0 +1,9 @@
+{
+  "groups": [{
+    "name": "",
+    "type": "com.cc.config.AmqpConfig",
+    "sourceType": "com.cc.config.AmqpConfig"
+  }],
+  "properties": [],
+  "hints": []
+}

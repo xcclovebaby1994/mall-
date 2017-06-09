@@ -1,6 +1,6 @@
 package com.cc.message;
 
-import com.cc.config.AmqpConfig;
+import com.cc.core.AmqpConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
