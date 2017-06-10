@@ -1,2 +1,4 @@
 com/cc/service/DemoService.class
+com/cc/message/impl/MessageQueueSenderImpl.class
 com/cc/service/impl/DemoServiceImpl.class
+com/cc/message/MessageQueueSender.class

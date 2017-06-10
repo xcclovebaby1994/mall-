@@ -15,34 +15,8 @@ import java.util.Date;
 /**
  * Created by Chengcheng on 2017/5/24.
  */
-@RestController
 @SpringBootApplication
 public class Application {
-
-    @Autowired
-    private DemoService demoService;
-
-    @Autowired
-    private RedisTemplate redisTemplate;
-
-    @RequestMapping("/")
-    String home() {
-        redisTemplate.opsForValue().set("key","value");
-        return "Hello World!";
-    }
-
-    @RequestMapping("/now")
-    String hehe() {
-        return "现在时间：" + (new Date()).toLocaleString();
-    }
-
-    @RequestMapping("/demo")
-    String demo(){
-        int count = demoService.getCount();
-        Object key = redisTemplate.opsForValue().get("key");
-
-        return "连接数据库成功" + count + "" + "redis = " + (String)key;
-    }
 
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(Application.class);

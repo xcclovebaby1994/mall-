@@ -1,4 +1,5 @@
 com/cc/service/DemoService.class
 com/cc/Application.class
 com/cc/mapper/DemoMapper.class
+META-INF/spring-configuration-metadata.json
 com/cc/context/MyBatisConfig.class

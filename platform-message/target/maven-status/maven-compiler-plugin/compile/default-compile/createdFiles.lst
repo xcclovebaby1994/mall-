@@ -1,5 +1,2 @@
+com/cc/message/Listener.class
 com/cc/Application.class
-META-INF/spring-configuration-metadata.json
-com/cc/message/Sender.class
-com/cc/config/Listener.class
-com/cc/config/AmqpConfig.class
