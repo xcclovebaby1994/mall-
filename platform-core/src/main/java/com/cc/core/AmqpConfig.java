@@ -33,5 +33,4 @@ public class AmqpConfig {
         return BindingBuilder.bind(queueFOO()).to(fooExchange());
     }
 
-
 }

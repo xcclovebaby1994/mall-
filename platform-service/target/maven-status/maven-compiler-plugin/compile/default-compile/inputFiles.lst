@@ -1,2 +1,4 @@
 /Users/chcc/workspace/platform-mall/platform-service/src/main/java/com/cc/service/DemoService.java
+/Users/chcc/workspace/platform-mall/platform-service/src/main/java/com/cc/message/MessageQueueSender.java
 /Users/chcc/workspace/platform-mall/platform-service/src/main/java/com/cc/service/impl/DemoServiceImpl.java
+/Users/chcc/workspace/platform-mall/platform-service/src/main/java/com/cc/message/impl/MessageQueueSenderImpl.java
